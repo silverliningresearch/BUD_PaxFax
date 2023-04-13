@@ -111,6 +111,7 @@ function prepareInterviewData() {
   for (i = 0; i < interview_data_full.length; i++) {
     var interview = interview_data_full[i];
 
+
     var interview_month = interview["InterviewEndDate"].substring(5,7);//"2023-04-03 06:18:18"
     var interview_quarter = getQuarterFromMonth(interview_month);
     
@@ -168,11 +169,12 @@ function prepareInterviewData() {
       flight.Date_Time = flight.Time;
       today_flight_list.push(flight);
     }
+    
     //currentMonth: 02-2023
     //flight.Date: 08-02-2023
-    if (currentMonth == flight.Date.substring(3,10)) { 
+    if (currentQuarter ==  getQuarterFromMonth(flight.Date.substring(3,5))) { 
       this_month_flight_list.push(flight);
-    }				   
+    }		   
   }
  
   //add quota data
