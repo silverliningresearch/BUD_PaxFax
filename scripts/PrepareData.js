@@ -130,9 +130,8 @@ function prepareInterviewData() {
   quota_data = [];
   quota_data.length = 0;
   for (i = 0; i < quota_data_temp.length; i++) {
-    //var quota_month =  quota_data_temp[i].Month + "-"  + quota_data_temp[i].Year; 
-    //if (quota_month== currentMonth)
-    if (quota_data_temp[i].Quota>0)
+    if ((quota_data_temp[i].Quota>0)
+         && (quota_data_temp[i].Quarter == currentQuarter))
     {
       quota_data.push(quota_data_temp[i]);
     }
