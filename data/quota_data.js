@@ -1734,7 +1734,7 @@
 {
     "Airport_Airline": "TGD-W6",
     "Quarter": "2024-Q1",
-    "Quota": 3.0
+    "Quota": 4.0
 },
 {
     "Airport_Airline": "TGM-W6",
@@ -1744,7 +1744,7 @@
 {
     "Airport_Airline": "TIA-W6",
     "Quarter": "2024-Q1",
-    "Quota": 3.0
+    "Quota": 4.0
 },
 {
     "Airport_Airline": "TLV-W6",
@@ -1759,7 +1759,7 @@
 {
     "Airport_Airline": "AYT-XQ",
     "Quarter": "2024-Q1",
-    "Quota": 3.0
+    "Quota": 4.0
 }
        
        
