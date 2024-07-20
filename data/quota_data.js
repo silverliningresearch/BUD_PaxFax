@@ -2625,9 +2625,7 @@
 },
        
 
-
-
-  {
+ {
         "Airport_Airline": "TLV-6H",
         "Quarter": "2024-Q3",
         "Quota": 5.0
@@ -2735,7 +2733,7 @@
     {
         "Airport_Airline": "HAM-EW",
         "Quarter": "2024-Q3",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "STR-EW",
@@ -2865,7 +2863,7 @@
     {
         "Airport_Airline": "CIA-FR",
         "Quarter": "2024-Q3",
-        "Quota": 13.0
+        "Quota": 12.0
     },
     {
         "Airport_Airline": "CPH-FR",
@@ -3285,7 +3283,7 @@
     {
         "Airport_Airline": "BRU-W6",
         "Quarter": "2024-Q3",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "BSL-W6",
@@ -3515,7 +3513,7 @@
     {
         "Airport_Airline": "TLV-W6",
         "Quarter": "2024-Q3",
-        "Quota": 7.0
+        "Quota": 8.0
     },
     {
         "Airport_Airline": "VLC-W6",
@@ -3525,12 +3523,12 @@
     {
         "Airport_Airline": "WAW-W6",
         "Quarter": "2024-Q3",
-        "Quota": 7.0
+        "Quota": 8.0
     },
     {
         "Airport_Airline": "ZTH-W6",
         "Quarter": "2024-Q3",
-        "Quota": 4.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "AYT-XC",
@@ -3541,8 +3539,12 @@
         "Airport_Airline": "AYT-XQ",
         "Quarter": "2024-Q3",
         "Quota": 2.0
+    },
+    {
+        "Airport_Airline": "SZX-HU",
+        "Quarter": "2024-Q3",
+        "Quota": 2.0
     }
-
 
         
 ]
