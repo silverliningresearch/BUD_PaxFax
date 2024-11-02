@@ -155,11 +155,11 @@ function prepareInterviewData() {
     var interview = interview_data_full[i];
 
     //var interview_month = interview["InterviewEndDate"].substring(5,7);//"2023-04-03 06:18:18"
-    var interview_quarter = getQuarterFromMonth(interview["InterviewEndDate"].substring(5,7), interview["InterviewEndDate"].substring(0,4));
+    var interview_quarter = getQuarterFromMonth(interview["Interview_Date"].substring(5,7), interview["Interview_Date"].substring(0,4));
     
-    if ((interview.InterviewState == "Complete") 
-      //&& (currentMonth == interview_month)  
-      && (currentQuarter == interview_quarter)  
+    if (// (interview.InterviewState == "Complete") && 
+      //(currentMonth == interview_month)  && 
+       (currentQuarter == interview_quarter)  
       )
     {
       if (interview["Dest"]) {
