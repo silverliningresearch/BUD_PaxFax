@@ -205,9 +205,14 @@ function prepareInterviewData() {
           if ((interview.Airport_Airline == "LYS-EZS") 
               || (interview.Airport_Airline == "LYS-EJU")
               || (interview.Airport_Airline == "LYS-EZY"))
-            {
-                interview.Airport_Airline = "LYS-EC";
-            }
+          {
+              interview.Airport_Airline = "LYS-EC";
+          }
+
+          if (interview.Airport_Airline == "VCE-W4") 
+          {
+              interview.Airport_Airline = "VCE-W6";
+          }            
 
         }
 
