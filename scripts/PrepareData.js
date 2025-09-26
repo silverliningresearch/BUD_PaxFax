@@ -212,8 +212,38 @@ function prepareInterviewData() {
           if (interview.Airport_Airline == "VCE-W4") 
           {
               interview.Airport_Airline = "VCE-W6";
-          }            
+          }
+          
+          if (interview.Airport_Airline.substring(0,7) == "CDG-EJU") 
+          {
+              interview.Airport_Airline = "CDG-EC";
+          }
+          if (interview.Airport_Airline.substring(0,7) == "GVA-EZS") 
+          {
+              interview.Airport_Airline = "GVA-EC";
+          }
+          if (interview.Airport_Airline.substring(0,7) == "BSL-EZS") 
+          {
+              interview.Airport_Airline = "BSL-EC";
+          }
+          if (interview.Airport_Airline.substring(0,7) == "LYS-EJU") 
+          {
+              interview.Airport_Airline = "LYS-EC";
+          }
 
+          if (interview.Airport_Airline.substring(0,7) == "AUH-W6") 
+          {
+              interview.Airport_Airline = "AUH-W6";
+          }
+          if (interview.Airport_Airline.substring(0,7) == "AUH-W62") 
+          {
+              interview.Airport_Airline = "AUH-W6";
+          }
+
+         if (interview.Airport_Airline.substring(0,7) == "LGW-EZY") 
+          {
+              interview.Airport_Airline = "LGW-EC";
+          }
         }
 
         interview_data.push(interview);
