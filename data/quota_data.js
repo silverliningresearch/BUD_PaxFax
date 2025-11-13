@@ -1809,7 +1809,7 @@
     "Quota": 5.0
 },
 {
-    "Airport_Airline": "ARN-DY",
+    "Airport_Airline": "ARN-D8",
     "Quarter": "2024-Q2",
     "Quota": 2.0
 },
@@ -6605,7 +6605,7 @@
         "Quota": 1
     },
     {
-        "Airport_Airline": "CPH-DY",
+        "Airport_Airline": "CPH-D8",
         "Quarter": "2025-Q4",
         "Quota": 1
     },

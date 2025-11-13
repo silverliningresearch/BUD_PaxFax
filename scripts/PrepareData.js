@@ -300,7 +300,17 @@ function prepareInterviewData() {
             if (interview.Airport_Airline == "BFS-RK") 
             {
                 interview.Airport_Airline = "BFS-FR";
-            }                          
+            }     
+            
+            if ((interview.Airport_Airline == "BOD-EJU") )
+            {
+                interview.Airport_Airline = "BOD-EC";
+            }
+            
+            if ((interview.Airport_Airline == "NTE-EJU") )
+            {
+                interview.Airport_Airline = "NTE-EC";
+            }            
         }
 
         interview_data.push(interview);
