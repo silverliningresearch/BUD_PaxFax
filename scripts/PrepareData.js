@@ -447,6 +447,8 @@ function prepareInterviewData() {
             //     interview.Airport_Airline = "STN-FR";
             // }  
              
+
+
             if ((interview.Airport_Airline == "BOD-EJU") )
             {
                 interview.Airport_Airline = "BOD-EC";
@@ -475,6 +477,10 @@ function prepareInterviewData() {
                 interview.Airport_Airline = "ARN-DY";
             }       
             
+            if ((interview.Airport_Airline == "LGW-EC") )
+            {
+                interview.Airport_Airline = "LGW-EC";
+            }
         }
         interview_data.push(interview);
       }
