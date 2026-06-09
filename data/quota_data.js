@@ -8771,7 +8771,7 @@
     {
         "Airport_Airline": "RMO-W6",
         "Quarter": "2026-Q2",
-        "Quota": 2
+        "Quota": 1
     },
     {
         "Airport_Airline": "VCE-W4",
@@ -9039,9 +9039,9 @@
         "Quota": 1
     },
     {
-        "Airport_Airline": "RMO-W6",
+        "Airport_Airline": "RMO-W4",
         "Quarter": "2026-Q2",
-        "Quota": 1
+        "Quota": 2
     },
     {
         "Airport_Airline": "SKG-W6",

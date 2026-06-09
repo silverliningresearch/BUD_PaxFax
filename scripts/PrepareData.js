@@ -396,7 +396,7 @@ function prepareInterviewData() {
         }
 
                         //correction for EZS / EC
-        if (currentQuarter == "2026-Q1") 
+        if (currentQuarter == "2026-Q2") 
         {
 
             if ((interview.Airport_Airline == "BSL-EZS") 
